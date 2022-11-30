@@ -110,7 +110,7 @@ var APP_DATA = {
           "yaw": -0.15549143834856594,
           "pitch": -0.08088327698514064,
           "title": "<div>Kitchen</div>",
-          "text": "Text"
+          "text": "Each kitchen comes equipped with a full-sized fridge, a dishwasher, an oven and cooktop, a microwave, and ample storage and counter space."
         }
       ]
     },
