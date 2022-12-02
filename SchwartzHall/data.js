@@ -59,7 +59,7 @@ var APP_DATA = {
           "yaw": -3.095435589539056,
           "pitch": -0.45609594352979244,
           "title": "Schwartz",
-          "text": "Text"
+          "text": "Schwartz Hall is an upperclassman residential building that offers two- or four- person furnished apartments. All apartments are fully carpeted, have both air conditioning and heating, ample storage, and a full kitchen. In addition to these apartments, there are several other resources that you can explore throughout this virtual tour!"
         }
       ]
     },
@@ -110,7 +110,7 @@ var APP_DATA = {
           "yaw": -0.15549143834856594,
           "pitch": -0.08088327698514064,
           "title": "<div>Kitchen</div>",
-          "text": "Text"
+          "text": "Each kitchen comes equipped with a full-sized fridge, a dishwasher, an oven and cooktop, a microwave, and ample storage and counter space."
         }
       ]
     },
