@@ -155,7 +155,7 @@ var APP_DATA = {
           "yaw": 3.0265830458247365,
           "pitch": -0.3400039765421994,
           "title": "Kitchen",
-          "text": "Text"
+          "text": "Each kitchen comes equipped with a full-sized fridge, a dishwasher, an oven and cooktop, a microwave, and ample storage and counter space."
         }
       ]
     },
@@ -206,7 +206,7 @@ var APP_DATA = {
           "yaw": 2.2416136849062838,
           "pitch": -0.09260825391568694,
           "title": "<div>Kitchen</div>",
-          "text": "Text"
+          "text": "Each kitchen comes equipped with a full-sized fridge, a dishwasher, an oven and cooktop, a microwave, and ample storage and counter space."
         }
       ]
     },
@@ -370,7 +370,7 @@ var APP_DATA = {
           "yaw": 0.5561060940640417,
           "pitch": 0.14177289900887402,
           "title": "Room",
-          "text": "Text"
+          "text": "text"
         }
       ]
     },
