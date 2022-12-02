@@ -8,3 +8,9 @@ This is our CSC-400 project for the university of southern connecticut state uni
 ## [Schwartz Tour](https://fj99.github.io/360-Tour/SchwartzHall/)
 
 ## [Hickerson Tour](https://fj99.github.io/360-Tour/HickersonHall/)
+
+## [Wilkinson Tour](https://fj99.github.io/360-Tour/WilkinsonHall/)
+
+## [TownHouse Tour](https://fj99.github.io/360-Tour/TownHouse/)
+
+## [Chase Tour](https://fj99.github.io/360-Tour/ChaseHall/)
