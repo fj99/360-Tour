@@ -1,327 +1,339 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>SchwartzHall</title>
-<meta charset="utf-8">
-<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
-<style> @-ms-viewport { width: device-width; } </style>
-<link rel="stylesheet" href="vendor/reset.min.css">
-<link rel="stylesheet" href="style.css">
-</head>
-<body class="multiple-scenes view-control-buttons">
 
-<div id="pano"></div>
+  <head>
+    <title>Schwartz Hall</title>
+    <meta charset="utf-8">
+    <meta name="viewport"
+      content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+    <style>
+      @-ms-viewport {
+        width: device-width;
+      }
+    </style>
+    <link rel="stylesheet" href="../vendor/reset.min.css">
+    <link rel="stylesheet" href="../style.css">
+  </head>
 
-<div id="sceneList">
-  <ul class="scenes">
-    
-      <a href="javascript:void(0)" class="scene" data-id="0-schwartzhall_outside17">
-        <li class="text">SchwartzHall_Outside17</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="1-schwartz_apartment_deskarea">
-        <li class="text">Schwartz_Apartment_DeskArea</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="2-schwartz_apartment_kitchen">
-        <li class="text">Schwartz_Apartment_Kitchen</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="3-schwartz_apartment_livingroom">
-        <li class="text">Schwartz_Apartment_LivingRoom</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="4-schwartz_apartment_entrance2">
-        <li class="text">Schwartz_Apartment_entrance2</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="5-schwartz_apartment_hallway1">
-        <li class="text">Schwartz_Apartment_Hallway1</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="6-schwartz_apartment_hallway2">
-        <li class="text">Schwartz_Apartment_hallway2</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="7-schwartz_apartment">
-        <li class="text">Schwartz_Apartment</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="8-schwartz_apartment_bathroom">
-        <li class="text">Schwartz_Apartment_Bathroom</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="9-schwartz_apartment_extrance1">
-        <li class="text">Schwartz_Apartment_Extrance1</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="10-schwartzhall_3rdfloorelevators">
-        <li class="text">SchwartzHall_3rdFloorElevators</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="11-schwartzhall_3rdfloorleftend1">
-        <li class="text">SchwartzHall_3rdFloorLeftEnd1</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="12-schwartzhall_3rdfloorleftend2">
-        <li class="text">SchwartzHall_3rdFloorLeftEnd2</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="13-schwartzhall_3rdfloorrightend">
-        <li class="text">SchwartzHall_3rdFloorRightEnd</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="14-3rd-floor-right-side">
-        <li class="text">3rd floor right side</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="15-schwartzhall_backentrance">
-        <li class="text">SchwartzHall_BackEntrance</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="16-schwartzhall_backentranceoutside">
-        <li class="text">SchwartzHall_BackEntranceOutside</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="17-schwartzhall_backentrancestairs">
-        <li class="text">SchwartzHall_BackEntranceStairs</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="18-schwartzhall_reslifeofficeentrance">
-        <li class="text">SchwartzHall_ReslifeOfficeEntrance</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="19-schwartzhall_elevators">
-        <li class="text">SchwartzHall_Elevators</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="20-schwartzhall_frontentrance">
-        <li class="text">SchwartzHall_FrontEntrance</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="21-schwartzhall_frontentranceoutdoors">
-        <li class="text">SchwartzHall_FrontEntranceOutdoors</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="22-schwartzhall_accessibleentrance">
-        <li class="text">SchwartzHall_AccessibleEntrance</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="23-schwartzhall_frontentrancestairs">
-        <li class="text">SchwartzHall_FrontEntranceStairs</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="24-schwartzhall_outside1">
-        <li class="text">SchwartzHall_Outside1</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="25-schwartzhall_outside2">
-        <li class="text">SchwartzHall_Outside2</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="26-schwartzhall_outside3">
-        <li class="text">SchwartzHall_Outside3</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="27-schwartzhall_outside4">
-        <li class="text">SchwartzHall_Outside4</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="28-schwartzhall_outside5">
-        <li class="text">SchwartzHall_Outside5</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="29-schwartzhall_outside6">
-        <li class="text">SchwartzHall_Outside6</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="30-schwartzhall_outside8">
-        <li class="text">SchwartzHall_Outside8</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="31-schwartzhall_outside9">
-        <li class="text">SchwartzHall_Outside9</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="32-outside10">
-        <li class="text">Outside10</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="33-schwartzhall_outside11">
-        <li class="text">SchwartzHall_Outside11</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="34-outside12">
-        <li class="text">Outside12</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="35-outside13">
-        <li class="text">Outside13</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="36-schwartzhall_outside15">
-        <li class="text">SchwartzHall_Outside15</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="37-schwartzhall_sidewalk1">
-        <li class="text">SchwartzHall_Sidewalk1</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="38-schwartzhall_sidewalk2">
-        <li class="text">SchwartzHall_Sidewalk2</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="39-schwartzhall_wellnesscenter">
-        <li class="text">SchwartzHall_WellnessCenter</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="40-schwartzhall_wellnesscentersidearea">
-        <li class="text">SchwartzHall_WellnessCenterSideArea</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="41-sps">
-        <li class="text">SPS</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="42-sps-hallway">
-        <li class="text">SPS hallway</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="43-basement-hallway3">
-        <li class="text">basement hallway3</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="44-laundry-room">
-        <li class="text">laundry room</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="45-middle-laundry-room">
-        <li class="text">middle laundry room</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="46-back-laundry-room">
-        <li class="text">back laundry room</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="47-connect-to-back-room">
-        <li class="text">connect to back room</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="48-back-room-laundry">
-        <li class="text">back room laundry</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="49-laundry-entrance">
-        <li class="text">laundry entrance</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="50-basement-elevators">
-        <li class="text">basement elevators</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="51-basement-hallway">
-        <li class="text">basement hallway</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="52-basement-hallwayentrance">
-        <li class="text">basement hallway/entrance</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="53-meeting-room-entrance">
-        <li class="text">meeting room entrance</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="54-meeting-room-right">
-        <li class="text">meeting room right</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="55-meeting-room-back-right">
-        <li class="text">meeting room back right</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="56-meeting-room-corner-right">
-        <li class="text">meeting room corner right</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="57-meeting-room-middle">
-        <li class="text">meeting room middle</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="58-meeting-room-left">
-        <li class="text">meeting room left</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="59-meeting-room-corner-left">
-        <li class="text">meeting room corner left</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="60-meeting-room-exit">
-        <li class="text">meeting room exit</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="61-entering-room">
-        <li class="text">entering room</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="62-coom-room-entrance">
-        <li class="text">coom room entrance</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="63-game-room">
-        <li class="text">game room</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="64-schwartzhall_outside16">
-        <li class="text">SchwartzHall_Outside16</li>
-      </a>
-    
-  </ul>
-</div>
+  <body class="multiple-scenes view-control-buttons">
 
-<div id="titleBar">
-  <h1 class="sceneName"></h1>
-</div>
+    <div id="pano"></div>
 
-<a href="javascript:void(0)" id="autorotateToggle">
-  <img class="icon off" src="img/play.png">
-  <img class="icon on" src="img/pause.png">
-</a>
+    <div id="sceneList">
+      <ul class="scenes">
 
-<a href="javascript:void(0)" id="fullscreenToggle">
-  <img class="icon off" src="img/fullscreen.png">
-  <img class="icon on" src="img/windowed.png">
-</a>
+        <a href="javascript:void(0)" class="scene" data-id="0-schwartzhall_outside17">
+          <li class="text">SchwartzHall_Outside17</li>
+        </a>
 
-<a href="javascript:void(0)" id="sceneListToggle">
-  <img class="icon off" src="img/expand.png">
-  <img class="icon on" src="img/collapse.png">
-</a>
+        <a href="javascript:void(0)" class="scene" data-id="1-schwartz_apartment_deskarea">
+          <li class="text">Schwartz_Apartment_DeskArea</li>
+        </a>
 
-<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
-  <img class="icon" src="img/up.png">
-</a>
-<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
-  <img class="icon" src="img/down.png">
-</a>
-<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
-  <img class="icon" src="img/left.png">
-</a>
-<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
-  <img class="icon" src="img/right.png">
-</a>
-<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
-  <img class="icon" src="img/plus.png">
-</a>
-<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
-  <img class="icon" src="img/minus.png">
-</a>
+        <a href="javascript:void(0)" class="scene" data-id="2-schwartz_apartment_kitchen">
+          <li class="text">Schwartz_Apartment_Kitchen</li>
+        </a>
 
-<script src="vendor/screenfull.min.js" ></script>
-<script src="vendor/bowser.min.js" ></script>
-<script src="vendor/marzipano.js" ></script>
+        <a href="javascript:void(0)" class="scene" data-id="3-schwartz_apartment_livingroom">
+          <li class="text">Schwartz_Apartment_LivingRoom</li>
+        </a>
 
-<script src="data.js"></script>
-<script src="index.js"></script>
+        <a href="javascript:void(0)" class="scene" data-id="4-schwartz_apartment_entrance2">
+          <li class="text">Schwartz_Apartment_entrance2</li>
+        </a>
 
-</body>
+        <a href="javascript:void(0)" class="scene" data-id="5-schwartz_apartment_hallway1">
+          <li class="text">Schwartz_Apartment_Hallway1</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="6-schwartz_apartment_hallway2">
+          <li class="text">Schwartz_Apartment_hallway2</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="7-schwartz_apartment">
+          <li class="text">Schwartz_Apartment</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="8-schwartz_apartment_bathroom">
+          <li class="text">Schwartz_Apartment_Bathroom</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="9-schwartz_apartment_extrance1">
+          <li class="text">Schwartz_Apartment_Extrance1</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="10-schwartzhall_3rdfloorelevators">
+          <li class="text">SchwartzHall_3rdFloorElevators</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="11-schwartzhall_3rdfloorleftend1">
+          <li class="text">SchwartzHall_3rdFloorLeftEnd1</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="12-schwartzhall_3rdfloorleftend2">
+          <li class="text">SchwartzHall_3rdFloorLeftEnd2</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="13-schwartzhall_3rdfloorrightend">
+          <li class="text">SchwartzHall_3rdFloorRightEnd</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="14-3rd-floor-right-side">
+          <li class="text">3rd floor right side</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="15-schwartzhall_backentrance">
+          <li class="text">SchwartzHall_BackEntrance</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="16-schwartzhall_backentranceoutside">
+          <li class="text">SchwartzHall_BackEntranceOutside</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="17-schwartzhall_backentrancestairs">
+          <li class="text">SchwartzHall_BackEntranceStairs</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="18-schwartzhall_reslifeofficeentrance">
+          <li class="text">SchwartzHall_ReslifeOfficeEntrance</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="19-schwartzhall_elevators">
+          <li class="text">SchwartzHall_Elevators</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="20-schwartzhall_frontentrance">
+          <li class="text">SchwartzHall_FrontEntrance</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="21-schwartzhall_frontentranceoutdoors">
+          <li class="text">SchwartzHall_FrontEntranceOutdoors</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="22-schwartzhall_accessibleentrance">
+          <li class="text">SchwartzHall_AccessibleEntrance</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="23-schwartzhall_frontentrancestairs">
+          <li class="text">SchwartzHall_FrontEntranceStairs</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="24-schwartzhall_outside1">
+          <li class="text">SchwartzHall_Outside1</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="25-schwartzhall_outside2">
+          <li class="text">SchwartzHall_Outside2</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="26-schwartzhall_outside3">
+          <li class="text">SchwartzHall_Outside3</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="27-schwartzhall_outside4">
+          <li class="text">SchwartzHall_Outside4</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="28-schwartzhall_outside5">
+          <li class="text">SchwartzHall_Outside5</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="29-schwartzhall_outside6">
+          <li class="text">SchwartzHall_Outside6</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="30-schwartzhall_outside8">
+          <li class="text">SchwartzHall_Outside8</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="31-schwartzhall_outside9">
+          <li class="text">SchwartzHall_Outside9</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="32-outside10">
+          <li class="text">Outside10</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="33-schwartzhall_outside11">
+          <li class="text">SchwartzHall_Outside11</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="34-outside12">
+          <li class="text">Outside12</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="35-outside13">
+          <li class="text">Outside13</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="36-schwartzhall_outside15">
+          <li class="text">SchwartzHall_Outside15</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="37-schwartzhall_sidewalk1">
+          <li class="text">SchwartzHall_Sidewalk1</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="38-schwartzhall_sidewalk2">
+          <li class="text">SchwartzHall_Sidewalk2</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="39-schwartzhall_wellnesscenter">
+          <li class="text">SchwartzHall_WellnessCenter</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="40-schwartzhall_wellnesscentersidearea">
+          <li class="text">SchwartzHall_WellnessCenterSideArea</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="41-sps">
+          <li class="text">SPS</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="42-sps-hallway">
+          <li class="text">SPS hallway</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="43-basement-hallway3">
+          <li class="text">basement hallway3</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="44-laundry-room">
+          <li class="text">laundry room</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="45-middle-laundry-room">
+          <li class="text">middle laundry room</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="46-back-laundry-room">
+          <li class="text">back laundry room</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="47-connect-to-back-room">
+          <li class="text">connect to back room</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="48-back-room-laundry">
+          <li class="text">back room laundry</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="49-laundry-entrance">
+          <li class="text">laundry entrance</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="50-basement-elevators">
+          <li class="text">basement elevators</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="51-basement-hallway">
+          <li class="text">basement hallway</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="52-basement-hallwayentrance">
+          <li class="text">basement hallway/entrance</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="53-meeting-room-entrance">
+          <li class="text">meeting room entrance</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="54-meeting-room-right">
+          <li class="text">meeting room right</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="55-meeting-room-back-right">
+          <li class="text">meeting room back right</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="56-meeting-room-corner-right">
+          <li class="text">meeting room corner right</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="57-meeting-room-middle">
+          <li class="text">meeting room middle</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="58-meeting-room-left">
+          <li class="text">meeting room left</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="59-meeting-room-corner-left">
+          <li class="text">meeting room corner left</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="60-meeting-room-exit">
+          <li class="text">meeting room exit</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="61-entering-room">
+          <li class="text">entering room</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="62-coom-room-entrance">
+          <li class="text">coom room entrance</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="63-game-room">
+          <li class="text">game room</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="64-schwartzhall_outside16">
+          <li class="text">SchwartzHall_Outside16</li>
+        </a>
+
+      </ul>
+    </div>
+
+    <div id="titleBar">
+      <h1 class="sceneName"></h1>
+    </div>
+
+    <a href="https://inside.southernct.edu/virtual-tour" id="returnHome">
+      <img class="icon on" src="../img/go-back.png">
+    </a>
+
+    <a href="javascript:void(0)" id="autorotateToggle">
+      <img class="icon off" src="../img/play.png">
+      <img class="icon on" src="../img/pause.png">
+    </a>
+
+    <a href="javascript:void(0)" id="fullscreenToggle">
+      <img class="icon off" src="../img/fullscreen.png">
+      <img class="icon on" src="../img/windowed.png">
+    </a>
+
+    <a href="javascript:void(0)" id="sceneListToggle">
+      <img class="icon off" src="../img/expand.png">
+      <img class="icon on" src="../img/collapse.png">
+    </a>
+
+    <a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+      <img class="icon" src="../img/up.png">
+    </a>
+    <a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+      <img class="icon" src="../img/down.png">
+    </a>
+    <a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+      <img class="icon" src="../img/left.png">
+    </a>
+    <a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+      <img class="icon" src="../img/right.png">
+    </a>
+    <a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+      <img class="icon" src="../img/plus.png">
+    </a>
+    <a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+      <img class="icon" src="../img/minus.png">
+    </a>
+
+    <script src="../vendor/screenfull.min.js"></script>
+    <script src="../vendor/bowser.min.js"></script>
+    <script src="../vendor/marzipano.js"></script>
+
+    <script src="data.js"></script>
+    <script src="../index.js"></script>
+
+  </body>
+
 </html>
