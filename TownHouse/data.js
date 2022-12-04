@@ -48,7 +48,32 @@ var APP_DATA = {
           "target": "2-townhouse_diningarea"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": -0.9640563603608623,
+          "pitch": -0.756434586607142,
+          "title": "Bedroom A<br>",
+          "text": "Text"
+        },
+        {
+          "yaw": -2.5744890997832446,
+          "pitch": -0.10158132513998908,
+          "title": "Bedroom B<br>",
+          "text": "Text"
+        },
+        {
+          "yaw": 2.881598628489317,
+          "pitch": -0.09014387004279811,
+          "title": "Kitchen",
+          "text": "Text"
+        },
+        {
+          "yaw": 0.45291557318366316,
+          "pitch": -0.1156960670888445,
+          "title": "Balcony/Backyard",
+          "text": "Text"
+        }
+      ]
     },
     {
       "id": "1-townhouse_livingarea2",
@@ -92,7 +117,26 @@ var APP_DATA = {
           "target": "2-townhouse_diningarea"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 0.0847050585453637,
+          "pitch": -0.39624682652248566,
+          "title": "<div>backyard</div>",
+          "text": "Text"
+        },
+        {
+          "yaw": -1.6920432399298928,
+          "pitch": -0.4330358663631966,
+          "title": "BedroomA<br>",
+          "text": "Text"
+        },
+        {
+          "yaw": -2.7407739737747665,
+          "pitch": -0.07149040223566594,
+          "title": "Kitchen",
+          "text": "Text"
+        }
+      ]
     },
     {
       "id": "2-townhouse_diningarea",
@@ -124,19 +168,32 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.6305621540115283,
-          "pitch": 0.3086403716898154,
-          "rotation": 0,
+          "yaw": -2.6667961575144083,
+          "pitch": 0.07615699332159132,
+          "rotation": 5.497787143782138,
           "target": "1-townhouse_livingarea2"
         },
         {
-          "yaw": 2.8069767138141852,
-          "pitch": 0.4956655706646256,
+          "yaw": 2.486131931557365,
+          "pitch": 0.0018237407159844565,
           "rotation": 5.497787143782138,
           "target": "0-townhouse_livingarea1"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 0.31112634542739315,
+          "pitch": -0.05110219984570463,
+          "title": "Title",
+          "text": "Text"
+        },
+        {
+          "yaw": 2.161271342626307,
+          "pitch": -0.4264385743691754,
+          "title": "Bedroom A<br>",
+          "text": "Text"
+        }
+      ]
     },
     {
       "id": "3-townhouse_bedroomarea",
@@ -180,7 +237,14 @@ var APP_DATA = {
           "target": "4-townhouse_closets"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 2.44252076625148,
+          "pitch": 0.44486848383365185,
+          "title": "Title",
+          "text": "Text"
+        }
+      ]
     },
     {
       "id": "4-townhouse_closets",
@@ -256,8 +320,8 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.4914066387682805,
-          "pitch": -0.0052808083529782834,
+          "yaw": -1.233523762261747,
+          "pitch": -0.03183295883035342,
           "rotation": 0,
           "target": "4-townhouse_closets"
         }
