@@ -968,7 +968,7 @@ var APP_DATA = {
           "yaw": 2.710862056469683,
           "pitch": -0.12472912564363625,
           "rotation": 0,
-          "target": "19-schwartzhall_elevators"
+          "target": "10-schwartzhall_3rdfloorelevators"
         },
         {
           "yaw": -2.244054867859658,
