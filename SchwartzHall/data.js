@@ -325,7 +325,7 @@ var APP_DATA = {
           "yaw": -2.1895679125231933,
           "pitch": -0.2097067824248171,
           "title": "<div>Bathroom</div>",
-          "text": "Text"
+          "text": "Schwartz bathrooms consist of a bathtub with an adjustable showerhead, sink, toilet, mirror and storage under the sink. Bathrooms have access to both hot and cold water 24/7."
         }
       ]
     },
@@ -426,8 +426,8 @@ var APP_DATA = {
         {
           "yaw": -0.4296126354113543,
           "pitch": 0.25330783057131256,
-          "title": "Room",
-          "text": "Text"
+          "title": "Double Room",
+          "text": "This bedroom accomodates two people and includes two twin XL beds with mattresses, two floor lamps, fully functional HVAC unit, two closets with a curtain and two dressers."
         }
       ]
     },
@@ -472,7 +472,7 @@ var APP_DATA = {
           "yaw": 3.113113270445968,
           "pitch": -0.32372377004435293,
           "title": "Bathroom",
-          "text": "Text"
+          "text": "Schwartz bathrooms consist of a bathtub with an adjustable showerhead, sink, toilet, mirror and storage under the sink. Bathrooms have access to both hot and cold water 24/7."
         }
       ]
     },
@@ -579,7 +579,7 @@ var APP_DATA = {
           "yaw": 1.8514808902102189,
           "pitch": -0.05591273154204757,
           "title": "Room",
-          "text": "Text"
+          "text": "This bedroom accomodates two people and includes two twin XL beds with mattresses, two floor lamps, fully functional HVAC unit, two closets with a curtain and two dressers."
         }
       ]
     },
@@ -717,8 +717,8 @@ var APP_DATA = {
         {
           "yaw": 1.624197275898009,
           "pitch": -0.30043752305710214,
-          "title": "Title",
-          "text": "Text"
+          "title": "Tour a two-person suite!",
+          "text": "A two-person suite consists of one full bathroom, one bedroom, one full kitchen, living room area, dining area, ample storage and comes with some basic furniture. The furniture that comes with the room is presented in this room tour."
         }
       ]
     },
@@ -856,8 +856,8 @@ var APP_DATA = {
         {
           "yaw": 2.2498889955629924,
           "pitch": 0.11962513969356436,
-          "title": "parking lot<br>",
-          "text": "Text"
+          "title": "Schwartz Parking Lot<br>",
+          "text": "This is the main parking lot of Schwartz Hall. Residents have access to free parking and only require an SCSU parking pass to park here. There is an overflow lot that is located next to the building that can also be utilized if preferred. Both parking lots have reserved accessible parking spaces."
         }
       ]
     },
@@ -957,8 +957,8 @@ var APP_DATA = {
         {
           "yaw": -2.5872273828103243,
           "pitch": -0.22854006239100677,
-          "title": "Office of Reslife<br>",
-          "text": "Text"
+          "title": "Office of Residence Life<br>",
+          "text": "Welcome to the Office of Residence Life! Our hours of operation are from Monday - Friday from 8:30am - 4:30pm, with the exception of holidays. For any residential concerns and help, walk-ins are always welcome or you can contact us via phone at (203) 392-5870."
         }
       ]
     },
@@ -1026,8 +1026,8 @@ var APP_DATA = {
         {
           "yaw": -1.3749425919028724,
           "pitch": 0.020324983791420337,
-          "title": "community room<br>",
-          "text": "Text"
+          "title": "Schwartz Community Room<br>",
+          "text": "The Schwartz Community room is a communal space that residents can utilize at any time. It consists of a conference space that is furnished with a table and chairs as well as a lounge area. The lounge area is spacious and offers plenty of seating and a TV unit with access to fast Wi-Fi.   "
         }
       ]
     },
@@ -1133,14 +1133,14 @@ var APP_DATA = {
         {
           "yaw": 1.8904873331952619,
           "pitch": 0.005884333109946738,
-          "title": "<div>Accesible</div>",
-          "text": "Text"
+          "title": "<div>Accesible Entry Point</div>",
+          "text": "Schwartz Hall is an accessible building with ramps and wheelchair acessible automatic doors."
         },
         {
           "yaw": 0.14394955085853667,
           "pitch": -0.6293548321776896,
-          "title": "Title",
-          "text": "Text"
+          "title": "Schwartz Hall",
+          "text": "Schwartz Hall is an upperclassman residential building that offers two- or four- person furnished apartments. All apartments are fully carpeted, have both air conditioning and heating, ample storage, and a full kitchen. In addition to these apartments, there are several other resources that you can explore throughout this virtual tour!"
         }
       ]
     },
@@ -1748,8 +1748,8 @@ var APP_DATA = {
         {
           "yaw": -0.7809496226155268,
           "pitch": -0.01868976295728686,
-          "title": "SPS",
-          "text": "Text"
+          "title": "Schwartz Programming Space (SPS)",
+          "text": "The SPS provides students with a variety of services for use during any event or program. Those services include: free Wi-Fi, 4 Large TVs, microphone and stereo capabilities, multiple Internet and electronic hookups, air conditioning, an all-gender bathroom (handicap accessible) and Apple TV."
         }
       ]
     },
@@ -1987,8 +1987,8 @@ var APP_DATA = {
         {
           "yaw": -1.5986855550061634,
           "pitch": -0.07126407448337702,
-          "title": "Title",
-          "text": "Text"
+          "title": "Wellness Center",
+          "text": "The Wellness Center offers a variety of services including wellbeing support, educational programming and leadership development. Operating hours are from Monday - Friday from 8:30am - 4:30pm."
         }
       ]
     },
@@ -2032,8 +2032,8 @@ var APP_DATA = {
         {
           "yaw": 2.332496356046728,
           "pitch": -0.09377169808602481,
-          "title": "Title",
-          "text": "Text"
+          "title": "Wellness Center",
+          "text": "This Wellness Center is free to all students and aims to help the needs of students to ensure personal and academic success."
         }
       ]
     },
@@ -2153,7 +2153,7 @@ var APP_DATA = {
           "yaw": 0.2655375519664833,
           "pitch": 0.11904162014783815,
           "title": "Laundry Room<br>",
-          "text": "Text"
+          "text": "The laundry room is located in the basement of Schwartz Hall. There are 6 washing machines and 6 dryers that residents have access to 24/7, each load costs $2.00. Students can also access a laundry tracker to track the progress of their laundry from the comfort of their rooms."
         }
       ]
     },
@@ -2453,14 +2453,14 @@ var APP_DATA = {
         {
           "yaw": 1.037473101142309,
           "pitch": 0.20285093494264572,
-          "title": "Visit Laundry Room!<br>",
-          "text": "Text"
+          "title": "Visit the laundry room!<br>",
+          "text": " "
         },
         {
           "yaw": -2.1281717944122445,
           "pitch": 0.22093731158255991,
-          "title": "Visit SPS!<br>",
-          "text": "Text"
+          "title": "Visit the Schwartz Programming Space (SPS)!<br>",
+          "text": " "
         }
       ]
     },
@@ -2616,8 +2616,8 @@ var APP_DATA = {
         {
           "yaw": -0.4711719198845117,
           "pitch": -0.08892006535528374,
-          "title": "SPS 2.0<br>",
-          "text": "Text"
+          "title": "Schwartz Programming Space (SPS)<br>",
+          "text": "The SPS provides students with a variety of services for use during any event or program. Those services include: free Wi-Fi, 4 Large TVs, microphone and stereo capabilities, multiple Internet and electronic hookups, air conditioning, an all-gender bathroom (handicap accessible) and Apple TV."
         }
       ]
     },
@@ -2855,8 +2855,8 @@ var APP_DATA = {
         {
           "yaw": 1.5120732325890165,
           "pitch": -0.11071958837414186,
-          "title": "SPS2.0",
-          "text": "Text"
+          "title": "Schwartz Programming Space (SPS)",
+          "text": "The SPS provides students with a variety of services for use during any event or program. Those services include: free Wi-Fi, 4 Large TVs, microphone and stereo capabilities, multiple Internet and electronic hookups, air conditioning, an all-gender bathroom (handicap accessible) and Apple TV."
         }
       ]
     },
@@ -3038,8 +3038,8 @@ var APP_DATA = {
         {
           "yaw": -1.0337162798427268,
           "pitch": -0.31982107490460976,
-          "title": "RHA Office<br>",
-          "text": "Text"
+          "title": "Residence Hall Association (RHA) Office<br>",
+          "text": "RHA is a student-led organization that acts as the governing body of the residential community. The organization hosts fun and interactive events throughout the semester and act as a laiason between residence life staff and students. Residents can get involved within the residential community by joining their hall's hall council, RHA or simply attending weekly meetings and events!"
         }
       ]
     },
