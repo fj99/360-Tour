@@ -86,7 +86,20 @@ var APP_DATA = {
           "target": "3-wilkinsonhall_hallway1"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 0.9000905277033411,
+          "pitch": -0.4440050861171638,
+          "title": "Title",
+          "text": "Text"
+        },
+        {
+          "yaw": -2.753177744570891,
+          "pitch": -0.6216724208819269,
+          "title": "Internet",
+          "text": "Text"
+        }
+      ]
     },
     {
       "id": "2-wilkinsonhall_roomentrance",
@@ -218,7 +231,14 @@ var APP_DATA = {
           "target": "5-wilkinsonhall_hallway3"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 0.008949468670913063,
+          "pitch": 0.11936654318094853,
+          "title": "Tour a room!<br>",
+          "text": "Text"
+        }
+      ]
     },
     {
       "id": "5-wilkinsonhall_hallway3",
