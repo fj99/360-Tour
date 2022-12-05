@@ -53,25 +53,25 @@ var APP_DATA = {
           "yaw": -0.9640563603608623,
           "pitch": -0.756434586607142,
           "title": "Bedroom A<br>",
-          "text": "Text"
+          "text": "This bedroom accomodates up to two people, and can be offered as a double or a single to residents."
         },
         {
           "yaw": -2.5744890997832446,
           "pitch": -0.10158132513998908,
           "title": "Bedroom B<br>",
-          "text": "Text"
+          "text": "Identical to Room A, this is the second bedroom in the Townhouse."
         },
         {
           "yaw": 2.881598628489317,
           "pitch": -0.09014387004279811,
           "title": "Kitchen",
-          "text": "Text"
+          "text": "A full kitchen that comes equipped with a full-size fridge, a microwave, a dishwasher, a sink and plenty of storage space."
         },
         {
           "yaw": 0.45291557318366316,
           "pitch": -0.1156960670888445,
-          "title": "Balcony/Backyard",
-          "text": "Text"
+          "title": "Patio/Balcony",
+          "text": "The lower level Townhouse has a patio while the upper-level townhouse has a balcony."
         }
       ]
     },
@@ -121,20 +121,20 @@ var APP_DATA = {
         {
           "yaw": 0.0847050585453637,
           "pitch": -0.39624682652248566,
-          "title": "<div>backyard</div>",
-          "text": "Text"
+          "title": "<div>Patio/Balcony</div>",
+          "text": "The lower level Townhouse has a patio while the upper-level townhouse has a balcony."
         },
         {
           "yaw": -1.6920432399298928,
           "pitch": -0.4330358663631966,
-          "title": "BedroomA<br>",
-          "text": "Text"
+          "title": "Bedroom A<br>",
+          "text": "This bedroom accomodates up to two people, and can be offered as a double or a single to residents."
         },
         {
           "yaw": -2.7407739737747665,
           "pitch": -0.07149040223566594,
           "title": "Kitchen",
-          "text": "Text"
+          "text": "A full kitchen that comes equipped with a full-size fridge, a microwave, a dishwasher, a sink and plenty of storage space."
         }
       ]
     },
@@ -184,14 +184,14 @@ var APP_DATA = {
         {
           "yaw": 0.31112634542739315,
           "pitch": -0.05110219984570463,
-          "title": "Title",
-          "text": "Text"
+          "title": "Bedroom A",
+          "text": "Each bedroom comes fully furnished, complete with two twin XL beds, two desks, two desk chairs, two desk lamps, two dressers, two closets and a private bathroom."
         },
         {
           "yaw": 2.161271342626307,
           "pitch": -0.4264385743691754,
           "title": "Bedroom A<br>",
-          "text": "Text"
+          "text": "This bedroom accomodates up to two people, and can be offered as a double or a single to residents."
         }
       ]
     },
@@ -241,8 +241,8 @@ var APP_DATA = {
         {
           "yaw": 2.44252076625148,
           "pitch": 0.44486848383365185,
-          "title": "Title",
-          "text": "Text"
+          "title": "Kitchen",
+          "text": "A full kitchen that comes equipped with a full-size fridge, a microwave, a dishwasher, a sink and plenty of storage space."
         }
       ]
     },
