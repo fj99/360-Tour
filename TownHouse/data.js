@@ -241,8 +241,8 @@ var APP_DATA = {
         {
           "yaw": 2.44252076625148,
           "pitch": 0.44486848383365185,
-          "title": "Kitchen",
-          "text": "A full kitchen that comes equipped with a full-size fridge, a microwave, a dishwasher, a sink and plenty of storage space."
+          "title": "Bedroom A",
+          "text": "This bedroom accomodates up to two people, and can be offered as a double or a single to residents."
         }
       ]
     },
