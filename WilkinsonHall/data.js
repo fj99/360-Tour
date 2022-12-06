@@ -64,8 +64,8 @@ var APP_DATA = {
         {
           "yaw": -1.7401990391158115,
           "pitch": -0.06831659095988307,
-          "title": "Room Upstairs<br>",
-          "text": "<br>"
+          "title": "Tour a room upstairs!<br>",
+          "text": " "
         }
       ]
     },
@@ -629,8 +629,8 @@ var APP_DATA = {
         {
           "yaw": -3.090704006179209,
           "pitch": -0.14068016635192393,
-          "title": "room",
-          "text": "Text"
+          "title": "Double Room",
+          "text": "This bedroom accomodates two people and includes two twin XL beds with mattresses, two closets with curtains, two desks, two desk chairs, high-speed Wi-Fi access, vanity area and central heating."
         }
       ]
     },
@@ -762,8 +762,8 @@ var APP_DATA = {
         {
           "yaw": 0.8465244412147452,
           "pitch": -0.39190192065302476,
-          "title": "Room",
-          "text": "Text"
+          "title": "Double Room",
+          "text": "This bedroom accomodates two people and includes two twin XL beds with mattresses, two closets with curtains, two desks, two desk chairs, high-speed Wi-Fi access, vanity area and central heating."
         }
       ]
     },
