@@ -52,7 +52,7 @@ var APP_DATA = {
         {
           "yaw": -0.9640563603608623,
           "pitch": -0.756434586607142,
-          "title": "Bedroom A<br>",
+          "title": "Kitchen<br>",
           "text": "This bedroom accomodates up to two people, and can be offered as a double or a single to residents."
         },
         {
@@ -65,7 +65,7 @@ var APP_DATA = {
           "yaw": 2.881598628489317,
           "pitch": -0.09014387004279811,
           "title": "Kitchen",
-          "text": "A full kitchen that comes equipped with a full-size fridge, a microwave, a dishwasher, a sink and plenty of storage space. B"
+          "text": "A full kitchen that comes equipped with a full-size fridge, a microwave, a dishwasher, a sink and plenty of storage space."
         },
         {
           "yaw": 0.45291557318366316,
@@ -134,7 +134,7 @@ var APP_DATA = {
           "yaw": -2.7407739737747665,
           "pitch": -0.07149040223566594,
           "title": "Kitchen",
-          "text": "A full kitchen that comes equipped with a full-size fridge, a microwave, a dishwasher, a sink and plenty of storage space. A"
+          "text": "A full kitchen that comes equipped with a full-size fridge, a microwave, a dishwasher, a sink and plenty of storage space."
         }
       ]
     },
@@ -184,8 +184,8 @@ var APP_DATA = {
         {
           "yaw": 0.31112634542739315,
           "pitch": -0.05110219984570463,
-          "title": "Bedroom A",
-          "text": "Each bedroom comes fully furnished, complete with two twin XL beds, two desks, two desk chairs, two desk lamps, two dressers, two closets and a private bathroom."
+          "title": "Kitchen",
+          "text": "A full kitchen that comes equipped with a full-size fridge, a microwave, a dishwasher, a sink and plenty of storage space."
         },
         {
           "yaw": 2.161271342626307,
@@ -242,7 +242,7 @@ var APP_DATA = {
           "yaw": 2.44252076625148,
           "pitch": 0.44486848383365185,
           "title": "Bedroom A",
-          "text": "A full kitchen that comes equipped with a full-size fridge, a microwave, a dishwasher, a sink and plenty of storage space. C"
+          "text": "A full kitchen that comes equipped with a full-size fridge, a microwave, a dishwasher, a sink and plenty of storage space."
         }
       ]
     },
