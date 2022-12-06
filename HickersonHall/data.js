@@ -64,14 +64,14 @@ var APP_DATA = {
         {
           "yaw": -2.2143519536582392,
           "pitch": 0.15192541326633346,
-          "title": "<div>Hickerson Front desk</div>",
-          "text": "Text"
+          "title": "<div>Hickerson front desk</div>",
+          "text": "The front desk is staffed seven days a week by desk attendants who are trained to enforce residence life policies and help build a community within the building. The front desk offers many services including mail/package pick up, as well as renting games, sports equipment and vacuums. Additionally, the front desk is a hub for information regarding the residence hall, residents are welcome to direct any immediate questions/concerns to the front desk staff during operating hours."
         },
         {
           "yaw": -1.3851433244221578,
           "pitch": -0.000520943918100869,
           "title": "Tour a room!<br>",
-          "text": "Text"
+          "text": "Check out what a standard double room looks like in Hickerson!"
         }
       ]
     },
@@ -165,8 +165,8 @@ var APP_DATA = {
         {
           "yaw": 0.22062772489812765,
           "pitch": -0.0886042220189136,
-          "title": "Title",
-          "text": "Text"
+          "title": "Side Lounge",
+          "text": "This area consists of an all-gender accessible bathroom, an ice machine, an automatic water dispenser and, a variety of vending machines."
         }
       ]
     },
@@ -398,8 +398,8 @@ var APP_DATA = {
         {
           "yaw": 2.3939767700627765,
           "pitch": -0.35702345728675766,
-          "title": "Title",
-          "text": "Text"
+          "title": "Double Room",
+          "text": "This bedroom accomodates two people and includes two twin XL beds with mattresses, two closets with curtains, two desks, two desk chairs, high-speed Wi-Fi access, vanity area and central heating. Each floor has a utility room that consists of one washing machine, a dryer, and a communal kitchen. Additionally, each floor has a communal bathroom that is gender specific to the floor."
         }
       ]
     },
@@ -443,8 +443,8 @@ var APP_DATA = {
         {
           "yaw": -0.10349889387485689,
           "pitch": -0.5728050268753044,
-          "title": "Title",
-          "text": "Text"
+          "title": "Double Room",
+          "text": "This bedroom accomodates two people and includes two twin XL beds with mattresses, two closets with curtains, two desks, two desk chairs, high-speed Wi-Fi access, vanity area and central heating."
         }
       ]
     },
@@ -700,8 +700,8 @@ var APP_DATA = {
         {
           "yaw": -1.4200343260574666,
           "pitch": 0.04335566932547685,
-          "title": "Title",
-          "text": "Text"
+          "title": "Hickerson Basement",
+          "text": "The basement is a communal space for residents to use. The space includes two pool tables, a table tennis table, a foosbal table, plenty of seating and a TV."
         }
       ]
     }
