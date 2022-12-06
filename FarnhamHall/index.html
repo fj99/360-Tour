@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Farnhamhall</title>
+    <meta charset="utf-8">
+    <meta name="viewport"
+      content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+    <style>
+      @-ms-viewport {
+        width: device-width;
+      }
+    </style>
+    <link rel="stylesheet" href="../vendor/reset.min.css">
+    <link rel="stylesheet" href="../style.css">
+  </head>
+
+  <body class="multiple-scenes view-control-buttons">
+
+    <div id="pano"></div>
+
+    <div id="sceneList">
+      <ul class="scenes">
+
+        <a href="javascript:void(0)" class="scene" data-id="0-elevators">
+          <li class="text">elevators</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="1-gameroom">
+          <li class="text">gameroom</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="2-room_entrance">
+          <li class="text">room_entrance</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="3-room1">
+          <li class="text">room1</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="4-room2">
+          <li class="text">room2</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="5-upstairs_elevators">
+          <li class="text">upstairs_elevators</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="6-hallway1">
+          <li class="text">hallway1</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="7-upstairs_lobby">
+          <li class="text">upstairs_lobby</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="8-upstairs_lobby2">
+          <li class="text">upstairs_lobby2</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="9-downstairs_elevators">
+          <li class="text">downstairs_elevators</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="10-back_fps1">
+          <li class="text">back_FPS1</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="11-back_fps2">
+          <li class="text">back_FPS2</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="12-back_fps3">
+          <li class="text">back_FPS3</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="13-fps_entrance">
+          <li class="text">FPS_entrance</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="14-fps1">
+          <li class="text">FPS1</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="15-fps2">
+          <li class="text">FPS2</li>
+        </a>
+
+      </ul>
+    </div>
+
+    <div id="titleBar">
+      <h1 class="sceneName"></h1>
+    </div>
+
+    <a href="https://inside.southernct.edu/virtual-tour" id="returnHome">
+      <img class="icon on" src="../img/go-back.png">
+    </a>
+
+    <a href="javascript:void(0)" id="autorotateToggle">
+      <img class="icon off" src="../img/play.png">
+      <img class="icon on" src="../img/pause.png">
+    </a>
+
+    <a href="javascript:void(0)" id="fullscreenToggle">
+      <img class="icon off" src="../img/fullscreen.png">
+      <img class="icon on" src="../img/windowed.png">
+    </a>
+
+    <a href="javascript:void(0)" id="sceneListToggle">
+      <img class="icon off" src="../img/expand.png">
+      <img class="icon on" src="../img/collapse.png">
+    </a>
+
+    <a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+      <img class="icon" src="../img/up.png">
+    </a>
+    <a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+      <img class="icon" src="../img/down.png">
+    </a>
+    <a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+      <img class="icon" src="../img/left.png">
+    </a>
+    <a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+      <img class="icon" src="../img/right.png">
+    </a>
+    <a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+      <img class="icon" src="../img/plus.png">
+    </a>
+    <a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+      <img class="icon" src="../img/minus.png">
+    </a>
+
+    <script src="../vendor/screenfull.min.js"></script>
+    <script src="../vendor/bowser.min.js"></script>
+    <script src="../vendor/marzipano.js"></script>
+
+    <script src="data.js"></script>
+    <script src="../index.js"></script>
+
+  </body>
+
+</html>

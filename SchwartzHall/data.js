@@ -3111,6 +3111,50 @@ var APP_DATA = {
       },
       "linkHotspots": [],
       "infoHotspots": []
+    },
+    {
+      "id": "64-outside-of-door",
+      "name": "outside of door",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1520,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.145581178439464,
+          "pitch": -0.010415003608175155,
+          "rotation": 0,
+          "target": "34-outside12"
+        },
+        {
+          "yaw": -0.44030488910672005,
+          "pitch": 0.01727525044415401,
+          "rotation": 0,
+          "target": "59-meeting-room-exit"
+        }
+      ],
+      "infoHotspots": []
     }
   ],
   "name": "SchwartzHall",

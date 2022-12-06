@@ -14,3 +14,4 @@ This is our CSC-400 project for the university of southern connecticut state uni
 ## [TownHouse Tour](https://fj99.github.io/360-Tour/TownHouse/)
 
 ## [Chase Tour](https://fj99.github.io/360-Tour/ChaseHall/)
+## [Farnham Tour](https://fj99.github.io/360-Tour/FarnhamHall/)
