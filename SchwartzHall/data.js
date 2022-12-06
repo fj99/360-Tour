@@ -376,13 +376,13 @@ var APP_DATA = {
           "yaw": -0.8085775753443674,
           "pitch": -0.10765567856707037,
           "title": "Closet",
-          "text": "Text"
+          "text": "One of many closets in an apartment in Schwartz."
         },
         {
           "yaw": 0.5561060940640417,
           "pitch": 0.14177289900887402,
           "title": "Room",
-          "text": "text"
+          "text": "This bedroom accomodates two people and includes two twin XL beds with mattresses, two floor lamps, fully functional HVAC unit, two closets with a curtain and two dressers."
         }
       ]
     },
