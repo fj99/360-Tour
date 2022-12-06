@@ -52,7 +52,7 @@ var APP_DATA = {
         {
           "yaw": -0.9640563603608623,
           "pitch": -0.756434586607142,
-          "title": "Kitchen<br>",
+          "title": "Bedroom A<br>",
           "text": "This bedroom accomodates up to two people, and can be offered as a double or a single to residents."
         },
         {
@@ -241,8 +241,8 @@ var APP_DATA = {
         {
           "yaw": 2.44252076625148,
           "pitch": 0.44486848383365185,
-          "title": "Bedroom A",
-          "text": "A full kitchen that comes equipped with a full-size fridge, a microwave, a dishwasher, a sink and plenty of storage space."
+          "title": "Bedroom A<br>",
+          "text": "This bedroom accomodates up to two people, and can be offered as a double or a single to residents."
         }
       ]
     },
