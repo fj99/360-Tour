@@ -90,8 +90,8 @@ var APP_DATA = {
         {
           "yaw": 3.1024321621835877,
           "pitch": -0.2656764337984949,
-          "title": "Gameroom",
-          "text": "Text"
+          "title": "Game room",
+          "text": "The game room is open to all residents and consists of comfortable seating, two TVs and gaming systems. Video games can be rented out from the front desk."
         }
       ]
     },
@@ -185,8 +185,8 @@ var APP_DATA = {
         {
           "yaw": 0.1904477559784219,
           "pitch": -0.09816900254473993,
-          "title": "Room",
-          "text": "Text"
+          "title": "Double Room",
+          "text": "This bedroom accomodates two people and includes two twin XL beds with mattresses, two closets with curtains, two desks, two desk chairs, high-speed Wi-Fi access, vanity area and central heating."
         }
       ]
     },
@@ -231,7 +231,7 @@ var APP_DATA = {
           "yaw": -0.6714442547706696,
           "pitch": -0.3486064758212084,
           "title": "Room",
-          "text": "Text"
+          "text": "This bedroom accomodates two people and includes two twin XL beds with mattresses, two closets with curtains, two desks, two desk chairs, high-speed Wi-Fi access, vanity area and central heating."
         }
       ]
     },
@@ -481,8 +481,8 @@ var APP_DATA = {
         {
           "yaw": 0.3657187438034981,
           "pitch": -0.027468938672507548,
-          "title": "FPS",
-          "text": "Text"
+          "title": "Farnham Programming Space (FPS)",
+          "text": "FPS is a space commonly used space for hosting events and meetings. Residents can also enjoy this space during quiet study hours or enjoy the technological amenities outside of the any scheduled events. "
         }
       ]
     },
