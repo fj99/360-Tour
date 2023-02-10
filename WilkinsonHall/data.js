@@ -65,7 +65,7 @@ var APP_DATA = {
           "yaw": -1.7401990391158115,
           "pitch": -0.06831659095988307,
           "title": "Tour a room upstairs!<br>",
-          "text": " "
+          "text": "Wilkinson Hall features double and single rooms. Both double and single rooms have the same dimensions and amenities. Check out one of our rooms upstairs!  "
         }
       ]
     },
