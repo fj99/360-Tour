@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Project Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport"
+      content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+    <style>
+      @-ms-viewport {
+        width: device-width;
+      }
+    </style>
+    <link rel="stylesheet" href="../vendor/reset.min.css">
+    <link rel="stylesheet" href="../style.css">
+  </head>
+
+  <body class="multiple-scenes ">
+
+    <div id="pano"></div>
+
+    <div id="sceneList">
+      <ul class="scenes">
+
+        <a href="javascript:void(0)" class="scene" data-id="0-midriselobby">
+          <li class="text">MidriseLobby</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="1-midrisecomputerlab1">
+          <li class="text">MidriseComputerLab1</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="2-midrisecomputerlab2">
+          <li class="text">MidriseComputerLab2</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="3-midrisecomputerlabentry">
+          <li class="text">MidriseComputerLabEntry</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="4-midrisediningarea">
+          <li class="text">MidriseDiningArea</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="5-midriseentrywayroom">
+          <li class="text">MidriseEntrywayRoom</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="6-midrisekitchen">
+          <li class="text">MidriseKitchen</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="7-midriselivingarea">
+          <li class="text">MidriseLivingArea</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="8-midriserecroomentry">
+          <li class="text">MidriseRecRoomEntry</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="9-midriseroom1">
+          <li class="text">MidriseRoom1</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="10-midriseroom1back">
+          <li class="text">MidriseRoom1Back</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="11-midriseroom1bath">
+          <li class="text">MidriseRoom1Bath</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="12-midriseroom2">
+          <li class="text">MidriseRoom2</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="13-midriseroom2back">
+          <li class="text">MidriseRoom2Back</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="14-midriseroom2bath">
+          <li class="text">MidriseRoom2Bath</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="15-midriseroomhallway">
+          <li class="text">MidriseRoomHallway</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="16-midriseroomoutside">
+          <li class="text">MIdriseRoomOutside</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="17-recroommidrise">
+          <li class="text">RecRoomMidrise</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="18-roberatsview1">
+          <li class="text">RoberatsView1</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="19-robertasentrance">
+          <li class="text">RobertasEntrance</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="20-robertasview2">
+          <li class="text">RobertasView2</li>
+        </a>
+
+        <a href="javascript:void(0)" class="scene" data-id="21-thriftyowl">
+          <li class="text">ThriftyOwl</li>
+        </a>
+
+      </ul>
+    </div>
+
+    <div id="titleBar">
+      <h1 class="sceneName"></h1>
+    </div>
+
+    <a href="https://inside.southernct.edu/virtual-tour" id="returnHome">
+      <img class="icon on" src="../img/go-back.png">
+    </a>
+
+    <a href="javascript:void(0)" id="autorotateToggle">
+      <img class="icon off" src="../img/play.png">
+      <img class="icon on" src="../img/pause.png">
+    </a>
+
+    <a href="javascript:void(0)" id="fullscreenToggle">
+      <img class="icon off" src="../img/fullscreen.png">
+      <img class="icon on" src="../img/windowed.png">
+    </a>
+
+    <a href="javascript:void(0)" id="sceneListToggle">
+      <img class="icon off" src="../img/expand.png">
+      <img class="icon on" src="../img/collapse.png">
+    </a>
+
+    <a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+      <img class="icon" src="../img/up.png">
+    </a>
+    <a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+      <img class="icon" src="../img/down.png">
+    </a>
+    <a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+      <img class="icon" src="../img/left.png">
+    </a>
+    <a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+      <img class="icon" src="../img/right.png">
+    </a>
+    <a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+      <img class="icon" src="../img/plus.png">
+    </a>
+    <a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+      <img class="icon" src="../img/minus.png">
+    </a>
+
+    <script src="../vendor/screenfull.min.js"></script>
+    <script src="../vendor/bowser.min.js"></script>
+    <script src="../vendor/marzipano.js"></script>
+
+    <script src="data.js"></script>
+    <script src="../index.js"></script>
+
+  </body>
+
+</html>
